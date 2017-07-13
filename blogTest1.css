@@ -1,0 +1,55 @@
+
+
+.background{
+	color: #00cc99;
+	background-color: black;
+}
+.BorderBox {
+	border:5px double #00cc99;
+	text-align: center;
+	font-family: 'Lora', serif;
+	text-decoration: underline;
+	background-color: black;
+}
+.center{
+	text-align:center;
+}
+.Header{
+	margin: 1.5%;
+	border:5px double black;
+}
+.HeaderPicture{
+	width:88%;
+	height: 88%;
+	float: center;
+	margin: 2.5%;
+}
+.jumbotron {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 0px;
+  color: inherit;
+  background-color: #00cc99;
+  font-family: 'Lora', serif;
+  border:5px double black;
+  }
+.Pages{
+	margin: 1.5%;
+	border:5px double #00cc99;
+}
+.webPage{
+	width:31%;
+	float: left;
+	margin:1%;
+	font-style: italic;
+}
+.webPagePhoto{
+	width:96%;
+	float: center;
+	margin:2%;
+}
+.Wrap{
+	min-width: 190px;
+	text-align:center;
+	flex-wrap: row-reverse wrap;
+}
