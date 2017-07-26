@@ -1,11 +1,13 @@
 
 
 .background{
-	color: #00cc99;
+	/*color: #00cc99;*/
+	color: #22ad9a;
 	background-color: black;
 }
 .BorderBox {
-	border:5px double #00cc99;
+	/*border:5px double #00cc99;*/
+	border:5px double #22ad9a;
 	text-align: center;
 	font-family: 'Lora', serif;
 	text-decoration: underline;
@@ -14,13 +16,20 @@
 .center{
 	text-align:center;
 }
+
+#Please_Be_Centered{
+	align-self: center;
+	justify-content: center;
+	flex: center;
+}
 .Header{
 	margin: 1.5%;
 	border:5px double black;
 }
 .HeaderPicture{
 	width:88%;
-	height: 88%;
+	/*height: 88%;*/
+	/*height: 100%;*/
 	float: center;
 	margin: 2.5%;
 }
@@ -30,50 +39,55 @@
   margin-top: 51px;
   margin-bottom: 0px;
   color: inherit;
-  background-color: #00cc99;
+  /*background-color: #00cc99;*/
+  background-color: #22ad9a;
   font-family: 'Lora', serif;
   border:5px double black;
+  
   }
+
+ /*.BlogName{
+ 	border:5px double black;
+ }*/
 .Pages{
 	margin: 1.5%;
-	border:5px double #00cc99;
+	/*border:5px double #00cc99;*/
+	border:5px double #22ad9a;
 }
 .webPage{
-	width:31%;
-	float: left;
-	margin:1%;
 	font-style: italic;
 }
 .webPagePhoto{
 	width:96%;
-	float: center;
-	margin:2%;
+	padding: 2%;
 }
 .Wrap{
 	min-width: 190px;
 	text-align:center;
 	flex-wrap: row-reverse wrap;
-}
-
-.row{
 	justify-content: center;
+	align-content: center;
+
+}
+body{
+	/*background-color: #ea7964;*/
+	background-color: #d32356;
 }
 
-body{
-	background-color: #ea7964;
-}
-/*.button_submit{
-	background-color: #e56a54;
-	border-color: black;
-}*/
 .navbar-inverse .navbar-nav>li>a {
-      border-left: #00cc99;
-      border-right: #00cc99;
+     /* border-left: #00cc99;
+      border-right: #00cc99;*/
+
+      border-left: #22ad9a;
+      border-right: #22ad9a;
     } 
 .navbar-inverse .navbar-brand, .navbar-inverse a{
-	 color:#00cc99;
+	 /*color:#00cc99;*/
+	 color:#22ad9a;
 	 }
 
 i{
-	 color:#ea7964;
+	 /*color:#ea7964;*/
+	 color:#d32356;
 	 }
+
